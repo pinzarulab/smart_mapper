@@ -1,0 +1,12 @@
+name: smart_mapper
+description: Compile-time mapping annotations for Clean Architecture boundaries.
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+resolution: workspace
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.0

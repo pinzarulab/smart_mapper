@@ -1,0 +1,16 @@
+name: smart_mapper_example
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+resolution: workspace
+
+dependencies:
+  smart_mapper: ^0.1.0
+
+dev_dependencies:
+  build_runner: ^2.16.0
+  lints: ^6.0.0
+  smart_mapper_generator: ^0.1.0
+  test: ^1.25.0
