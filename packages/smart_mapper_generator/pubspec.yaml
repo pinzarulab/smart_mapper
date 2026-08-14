@@ -1,6 +1,6 @@
 name: smart_mapper_generator
 description: Source generator for smart_mapper, including nested collections and ObjectBox ToMany relations.
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/pinzarulab/smart_mapper
 repository: https://github.com/pinzarulab/smart_mapper
 issue_tracker: https://github.com/pinzarulab/smart_mapper/issues
@@ -20,9 +20,10 @@ dependencies:
   analyzer: '>=8.1.1 <15.0.0'
   build: ^4.0.0
   source_gen: ^4.2.4
-  smart_mapper: ^0.1.0
+  smart_mapper: ^0.2.0
 
 dev_dependencies:
+  build_test: ^3.5.16
   build_runner: ^2.16.0
   lints: ^6.0.0
   test: ^1.25.0

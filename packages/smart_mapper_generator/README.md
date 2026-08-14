@@ -14,11 +14,11 @@ Add it as a dev dependency, annotate an abstract mapper, then run:
 
 ```yaml
 dependencies:
-  smart_mapper: ^0.1.0
+  smart_mapper: ^0.2.0
 
 dev_dependencies:
   build_runner: ^2.16.0
-  smart_mapper_generator: ^0.1.0
+  smart_mapper_generator: ^0.2.0
 ```
 
 ```sh
@@ -31,10 +31,15 @@ this package directly.
 ## Supported mappings
 
 - Same-name constructor fields
-- Explicit field renames with `@MapField`
+- Strict analyzer-based type validation
+- Explicit field renames and converters with `@MapField`
+- Explicit ObjectBox relations with `@MapRelation`
+- Ignored targets and constant defaults
+- Named constructors
 - Freezed factory constructors
-- Nested `List` and `Iterable` mappings
-- ObjectBox `ToMany` relation population
+- Nested `List`, `Set`, and `Iterable` mappings
+- Nullable collections and items
+- ObjectBox `ToMany` and `ToOne` relations
 - Compile-time errors for missing or ambiguous item mappers
 
 See the [`smart_mapper` usage guide](https://pub.dev/packages/smart_mapper)

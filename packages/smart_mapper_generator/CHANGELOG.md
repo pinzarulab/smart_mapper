@@ -1,3 +1,11 @@
+## 0.2.0
+
+- Added strict analyzer-based type validation with targeted diagnostics.
+- Replaced automatic relation discovery with explicit `@MapRelation` rules.
+- Added `@MapIgnore`, `@MapDefault`, named constructors, and custom converters.
+- Added `Set`, `Iterable`, nullable-item, nullable-collection, and ObjectBox
+  `ToOne` mapping support.
+
 ## 0.1.0
 
 - Initial `build_runner` generator.

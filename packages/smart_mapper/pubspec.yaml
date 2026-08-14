@@ -1,6 +1,6 @@
 name: smart_mapper
 description: Compile-time Clean Architecture mapping annotations for DTOs, local models, and domain entities.
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/pinzarulab/smart_mapper
 repository: https://github.com/pinzarulab/smart_mapper
 issue_tracker: https://github.com/pinzarulab/smart_mapper/issues
