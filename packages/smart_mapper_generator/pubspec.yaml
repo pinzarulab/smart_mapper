@@ -1,9 +1,18 @@
 name: smart_mapper_generator
-description: Code generator for the smart_mapper Clean Architecture mapper.
+description: Source generator for smart_mapper, including nested collections and ObjectBox ToMany relations.
 version: 0.1.0
+homepage: https://github.com/pinzarulab/smart_mapper
+repository: https://github.com/pinzarulab/smart_mapper
+issue_tracker: https://github.com/pinzarulab/smart_mapper/issues
+
+topics:
+  - code-generation
+  - clean-architecture
+  - mapper
+  - objectbox
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.9.0
 
 resolution: workspace
 

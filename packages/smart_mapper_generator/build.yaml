@@ -1,9 +1,8 @@
 builders:
   smart_mapper:
-    import: "package:smart_mapper_generator/builder.dart"
+    import: "package:smart_mapper_generator/smart_mapper_generator.dart"
     builder_factories: ["smartMapperBuilder"]
     build_extensions: {".dart": [".smart_mapper.g.part"]}
     auto_apply: dependents
     build_to: cache
     applies_builders: ["source_gen:combining_builder"]
-
